@@ -40,17 +40,38 @@
 	</head>
 
 	<body>
-		<nav class="custom_navbar" role="navigation">
-			<div class="container-title"></div>
+		<nav class="navbar" role="navigation">
+			<a href="#" onclick="openSlideMenu()">
+				<i class="fas fa-bars fa-2x"></i>
+			</a>
+			<div class="nav-title">
 				<h2>Youth Red Cross</h2>
-				<h5>"Donate Blood. Save Lives"</h5>
+				<h4>Donate Blood. Save Lives.</h4>
+			</div>
+			<div class="yrc-logo">
+				<a href="https://www.annauniv.edu/yrc/" target="_blank"
+					><img src="images/download.png" alt="yrc-logo"
+				/></a>
 			</div>
 		</nav>
+
+		<div id="side-menu" class="side-nav">
+			<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</div>
+
+		<main id="main">
+			<h1>My side bar</h1>
+		</main>
+
 		<!-- Bootstrap JS -->
 		<!-- <script
 			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 			integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 			crossorigin="anonymous"
 		></script> -->
+		<script src="js/style.js"></script>
 	</body>
 </html>
