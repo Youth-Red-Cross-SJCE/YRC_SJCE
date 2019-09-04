@@ -20,7 +20,7 @@
 			content="YRC, blood donation, Youth Red Cross, SJCE"
 		/>
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-min.css" />
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/489109e9a6.js"></script>
 		<!-- Open Sans Font -->
@@ -39,7 +39,8 @@
 			</a>
 			<div class="custom-nav-title">
 				<h2>Youth Red Cross</h2>
-				<h5>Donate Blood. Save Lives.</h5>
+				<h3>Donate Blood. Save Lives.</h3>
+				<h3>(A Unit Of St. Joseph College Of Engineering.)</h3>
 			</div>
 			<div class="yrc-logo">
 				<a href="https://www.annauniv.edu/yrc/" target="_blank"
@@ -48,24 +49,56 @@
 			</div>
 		</nav>
 
-		<div id="side-menu" class="side-nav">
+		<section id="side-menu" class="side-nav">
 			<a href="#" class="custom-btn-close" onclick="closeSlideMenu()"
 				>&times;</a
 			>
 			<a href="#home">Home</a>
 			<a href="#">About</a>
 			<a href="#">Contact</a>
-		</div>
+		</section>
 
 		<section class="home-section" id="main">
 			<aside>
-				<h1>This is aside</h1>
+				<h1>This is aside for management section.</h1>
 			</aside>
-			<section>
-				This is where the carousel is placed
+			<section class="carousel-container">
+				<input type="radio" id="i1" name="images" checked />
+				<input type="radio" id="i2" name="images" />
+				<input type="radio" id="i3" name="images" />
+
+				<div class="carousel-slide-img" id="carousel-img-one">
+					<img src="images/Blood Donation.jpg" />
+					<h4 class="carousel-img-caption">Blood Donation.</h4>
+					<h4 class="carousel-caption-text">Saving countless lives.</h4>
+					<label class="carousel-prev" for="i3"><span>&#x2039;</span></label>
+					<label class="carousel-next" for="i2"><span>&#x203a;</span></label>
+				</div>
+
+				<div class="carousel-slide-img" id="carousel-img-two">
+					<img src="images/Medical Camp.jpg" />
+					<h4 class="carousel-img-caption">Medical Camp.</h4>
+					<h4 class="carousel-caption-text">Help the needy.</h4>
+					<label class="carousel-prev" for="i1"><span>&#x2039;</span></label>
+					<label class="carousel-next" for="i3"><span>&#x203a;</span></label>
+				</div>
+
+				<div class="carousel-slide-img" id="carousel-img-three">
+					<img src="images/Orphanage.jpg" />
+					<h4 class="carousel-img-caption">Orphanage Visit.</h4>
+					<h4 class="carousel-caption-text">Visiting God's own children.</h4>
+					<label class="carousel-prev" for="i2"><span>&#x2039;</span></label>
+					<label class="carousel-next" for="i1"><span>&#x203a;</span></label>
+				</div>
+
+				<div id="carousel-nav-slide">
+					<label for="i1" class="dots" id="dot1"></label>
+					<label for="i2" class="dots" id="dot2"></label>
+					<label for="i3" class="dots" id="dot3"></label>
+				</div>
 			</section>
 			<aside>
-				This is for the rolling banner
+				This is for the rolling banner.
 			</aside>
 		</section>
 
