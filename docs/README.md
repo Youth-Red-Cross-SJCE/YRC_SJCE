@@ -15,18 +15,19 @@
 ## Introduction
 
 > ** I Serve **
-> Youth Red Cross Society is a voluntary humanitarian organization to protect human life and health. It is managed and operated by the students of St. Joseph College of Engineering, Sriperumbudur.
+
+Youth Red Cross Society is a voluntary humanitarian organization to protect human life and health. It is managed and operated by the students of St. Joseph College of Engineering, Sriperumbudur.
 
 ## Website Architecture
 
 The website uses the following technologies:
 
 - Front-End
-- - HTML5
-- - CSS3
-- - JS (ES6)
-- - Bootstrap
-- - jQuery
+- HTML5
+- CSS3
+- JS (ES6)
+- Bootstrap
+- jQuery
 
 ### HTML5
 
@@ -77,11 +78,11 @@ As of September 7, 2019, this website uses the following HTML structure:
      This is the landing section of the website.
 
   - Carousel
-  - - Uses custom CSS and JS for transition.
-  - - Uses captions using custom CSS.
+  - Uses custom CSS and JS for transition.
+  - Uses captions using custom CSS.
 
   - News Rolling Banner
-  - - To be updated.
+  - To be updated.
 
   - Management Section
-  - - To be updated.
+  - To be updated.
