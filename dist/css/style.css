@@ -3,16 +3,28 @@
 	--header-color: #ff4d4d;
 	--body-color: #fff;
 }
+
+/* Universal Selector */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-/* Font */
+/* Font face to avoid the web-safe font stuff */
+@font-face {
+	font-family: "Open Sans", sans-serif;
+	src: url("webfont.eot"); /* IE9 Compat Modes */
+	src: url("webfont.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */ url("webfont.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("webfont.woff") format("woff"),
+		/* Pretty Modern Browsers */ url("webfont.ttf") format("truetype"),
+		/* Safari, Android, iOS */ url("webfont.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
 body {
 	line-height: 1.1;
-	font-family: "Open Sans", sans-serif !important;
+	font-family: "Open Sans", sans-serif;
 	font-size: 1.1rem;
 	overflow-x: hidden;
 	width: 100%;
@@ -165,10 +177,12 @@ body {
 
 .carousel-container .carousel-slide-img {
 	position: absolute;
+	display: block;
 	width: 100%;
 	height: 100%;
 }
-.carousel-container .carousel-slide-img img {
+.carousel-container .carousel-slide-img img,
+.carousel-container .carousel-slide-img source {
 	width: inherit;
 	height: inherit;
 }
@@ -363,7 +377,7 @@ label span {
 		border: none;
 		width: 100%;
 		height: 0%;
-		padding-bottom: 70%;
+		padding-bottom: 100%;
 	}
 
 	label span {

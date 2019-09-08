@@ -22,7 +22,7 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style-min.css" />
 		<!-- Font Awesome -->
-		<script src="https://kit.fontawesome.com/489109e9a6.js"></script>
+		<!-- <script src="https://kit.fontawesome.com/489109e9a6.js"></script> -->
 		<!-- Open Sans Font -->
 		<link
 			href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
@@ -68,7 +68,13 @@
 				<input type="radio" id="i3" name="images" />
 
 				<div class="carousel-slide-img" id="carousel-img-one">
-					<img src="images/webp-images/blood-donation.webp" />
+					<picture class="carousel-slide-img">
+						<source
+							media="(max-width:600px)"
+							srcset="images/webp-images/mobile-images/blood-donation-small.jpg"
+						/>
+						<img src="images/webp-images/blood-donation.webp" />
+					</picture>
 					<h4 class="carousel-img-caption">Blood Donation.</h4>
 					<h4 class="carousel-caption-text">Saving countless lives.</h4>
 					<label class="carousel-prev" for="i3"><span>&#x2039;</span></label>
@@ -76,7 +82,13 @@
 				</div>
 
 				<div class="carousel-slide-img" id="carousel-img-two">
-					<img src="images/webp-images/medical-camp.webp" />
+					<picture class="carousel-slide-img">
+						<source
+							media="(max-width:600px)"
+							srcset="images/webp-images/mobile-images/medical-camp-small.jpg"
+						/>
+						<img src="images/webp-images/medical-camp.webp" />
+					</picture>
 					<h4 class="carousel-img-caption">Medical Camp.</h4>
 					<h4 class="carousel-caption-text">Help the needy.</h4>
 					<label class="carousel-prev" for="i1"><span>&#x2039;</span></label>
@@ -84,7 +96,13 @@
 				</div>
 
 				<div class="carousel-slide-img" id="carousel-img-three">
-					<img src="images/webp-images/orphanage.webp" />
+					<picture class="carousel-slide-img">
+						<source
+							media="(max-width:600px)"
+							srcset="images/webp-images/mobile-images/orphanage-small.jpg"
+						/>
+						<img src="images/webp-images/orphanage.webp" />
+					</picture>
 					<h4 class="carousel-img-caption">Orphanage Visit.</h4>
 					<h4 class="carousel-caption-text">Visiting God's own children.</h4>
 					<label class="carousel-prev" for="i2"><span>&#x2039;</span></label>
