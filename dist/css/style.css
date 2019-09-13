@@ -47,6 +47,8 @@ body {
 	overflow: hidden;
 	display: grid;
 	grid-template-columns: 5% 90% 5%;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
 }
 
 .custom-navbar a {
@@ -188,12 +190,10 @@ body {
 
 .carousel-prev,
 .carousel-next {
-	width: 12%;
 	height: inherit;
 	position: absolute;
 	top: 0;
-	background-color: rgba(88, 88, 88, 0.2);
-	color: rgba(244, 244, 244, 0.9);
+	color: #999;
 	z-index: 99;
 	transition: 0.45s;
 	cursor: pointer;
@@ -202,9 +202,11 @@ body {
 
 .carousel-next {
 	right: 0;
+	width: 14%;
 }
 .carousel-prev {
 	left: 0;
+	width: 7%;
 }
 
 label span {
@@ -217,7 +219,6 @@ label span {
 .carousel-prev:hover,
 .carousel-next:hover {
 	transition: 0.3s;
-	background-color: rgba(88, 88, 89, 0.8);
 	color: #ffffff;
 }
 
