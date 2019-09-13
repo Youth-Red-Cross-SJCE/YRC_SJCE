@@ -20,7 +20,9 @@
 			content="YRC, blood donation, Youth Red Cross, SJCE"
 		/>
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style-min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Custom Menu -->
+		<link rel="stylesheet" href="css/menu.css" />
 		<!-- Font Awesome -->
 		<!-- <script src="https://kit.fontawesome.com/489109e9a6.js"></script> -->
 		<!-- Open Sans Font -->
@@ -38,9 +40,6 @@
 
 	<body>
 		<nav class="custom-navbar" role="navigation">
-			<a href="#" onclick="openSlideMenu()">
-				<i class="fas fa-bars fa-2x"></i>
-			</a>
 			<div class="custom-nav-title">
 				<h2>Youth Red Cross</h2>
 				<h3>Donate Blood. Save Lives.</h3>
@@ -53,14 +52,31 @@
 			</div>
 		</nav>
 
-		<section id="side-menu" class="side-nav">
+		<!-- <section id="side-menu" class="side-nav">
 			<a href="#" class="custom-btn-close" onclick="closeSlideMenu()"
 				>&times;</a
 			>
 			<a href="#home">Home</a>
 			<a href="#">About</a>
 			<a href="#">Contact</a>
-		</section>
+		</section> -->
+
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggle" />
+			<div class="hamburger"><div></div></div>
+			<div class="menu">
+				<div>
+					<div>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Donation</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<section class="home-section" id="main">
 			<aside>

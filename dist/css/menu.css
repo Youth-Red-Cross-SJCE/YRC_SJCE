@@ -1,16 +1,17 @@
 /* MENU STYLES */
 .menu-wrap {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	margin-top: 1rem;
+	z-index: 3;
 }
 
 .menu-wrap .toggle {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 3;
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
@@ -82,7 +83,10 @@
 .menu-wrap .toggle:checked ~ .menu {
 	visibility: visible;
 }
-
+/* Hide Carousel from displaying */
+.menu-wrap .toggle:checked ~ .carousel-container {
+	display: none;
+}
 .menu-wrap .toggle:checked ~ .menu > div {
 	transform: scale(1);
 	transition-duration: var(--menu-speed);
@@ -93,7 +97,7 @@
 	transition: opacity 0.4s ease 0.4s;
 }
 
-.menu-wrap .menu {
+.menu-wrap .menu { 
 	position: fixed;
 	top: 0;
 	left: 0;
