@@ -1,88 +1,169 @@
 # Youth Red Cross
-
+> **"I Serve"**
+---
 ### (A Unit Of St. Joseph College Of Engineering.)
+##### (Last updated 15 September, 2019)
+---
 
 ## Table of Contents
 
-1. Introduction
-2. Summary of website architecture
-3. HTML
-   1. Home Section
-   2. About Section
-   3. Contact Section
-4. Milestones
-5. Other Infomation
+1. [Overview](#1-overview)
+2. [Team](#2-team)
+3. [Goals](#3-goals)
+4. Phases
+5. Content
+6. Design
+7. Functionality
+8. Accessibility
+9. Browser support
+10. Hosting
+11. Ongoing upport and maintenance
+12. Assumptions
+13. Milestones
+14. Deadlines
+15. Budget
+---
+#### Note:
+> For all intents and purposes, the term YRC will refer to the YRC society in St. Joseph College of Engineering for this document henceforth.
 
-## Introduction
+## 1. Overview:
+This section is divided as follows:
+  - [About](#about)
+  - [Objective](#objective)
+  - [High-level project scope](#high-level-project-scope)
+  - [Target market](#target-market)
 
-> _"I Serve"_
+  - ### About
+     The [Indian Youth Red Cross][link-to-indian-yrc] is a voluntary humanitarian organization to protect human life and health based in India.
 
-Youth Red Cross Society is a voluntary humanitarian organization to protect human life and health. It is managed and operated by the students of St. Joseph College of Engineering, Sriperumbudur.
+     It is a part of [International Red Cross][link-to-international-rc] and [Red Crescent Movement][link-to-rcm].
 
-## Website Architecture
+     We, at St. Joseph College of Engineering, are a part of the state level Youth Red Cross Society, run by Anna University. We are successfully fulfilling the duties of Red Cross since its inception in 2007.
 
-The website uses the following technologies:
+     Our volunteer services include blood donation, medical camp, orphanage visits, old-age home visits, awareness camps and [much more][link-to-yrcsjce-website].
 
-- Front-End
-  - HTML5
-  - CSS3
-  - JS (ES6)
-  - Bootstrap
-  - jQuery
+  - ### Objective
+     The objective of Youth Red Cross is to _Serve for the needy_. To be updated.
 
-### HTML5
+  - ### High-level project scope
+     The website aims to be a fully functional digital interface for YRC volunteers in SJCE and also to provide a medium to spread awareness for ethical practices and social welfare to the general public.
 
-As of September 7, 2019, this website uses the following HTML structure:
+  - ### Target market
+     As our propaganda is intrinsically non-profit driven, we don't encourage target/niche market. We provide voluntary services to the people in need, free of cost. The services are bound with the framework prescribed by Indian Youth Red Cross.
+---
+## 2. Team
+  The Web design team is the part of the Technical team in YRC.
 
-- <html>
-  Uses Open Graph Protocol (og) prefix.
-- <head>
-  Viewport for responsiveness.
-- Uses the following og properties:
-  1. title
-  2. site_name
-- Uses the following meta tags
-  1. charset="UTF-8"
-  2. http-equiv
-  3. name
-     1. viewport
-     2. description
-     3. keywords
+  Designation | Name | Role
+  --- | --- | ---
+  Overall Head | Mr. Ravaneshwaran | Quality Assurance
+  Technical Team Head | Andrew Joel | Lead Designer
+  Technical Team Members | Krishna Ganesh, Maria Livin | Debugging, Project Management
+---
+## 3. Goals
+  ### Primary Goal
+  > To serve as the digital medium of volunteerism by providing vital services (blood donation) immediately upon request and to display the activities along with information.
 
-### External links:
 
-- Custom CSS
-- Font Awesome
-- Favicon
-- Open Sans font
 
-### _< body > tag_
 
-Here we give a brief summary about the general structure and standards followed.
 
-1. Navbar:
 
-   - Responsive.
-   - Uses custom CSS file and few JS functions.
 
-2. Side Menu:
 
-- Responsive.
-- Slide in from left. (as of now)
-- Controlled by JS functions openSideMenu() and closeSideMenu() .
-- Hamburger icon used from Font Awesome.
 
-3. Home Section:
-   This is the landing section of the website.
 
-- Carousel
 
-  - Uses custom CSS and JS for transition.
-  - Uses captions using custom CSS.
 
-- News Rolling Banner
 
-  - To be updated.
 
-- Management Section
-  - To be updated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[link-to-indian-yrc]: https://www.indianredcross.org/youth/
+[link-to-international-rc]: https://media.ifrc.org/ifrc/what-we-do/red-cross-and-red-crescent-youth/
+[link-to-rcm]: https://www.icrc.org/en/who-we-are/movement
+[link-to-yrcsjce-website]: https://yrcsjce.netlify.com
