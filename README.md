@@ -10,14 +10,14 @@
 1. [Overview](#1-overview)
 2. [Team](#2-team)
 3. [Goals](#3-goals)
-4. Phases
-5. Content
+4. [Phases](#4-phases)
+5. [Content](#5-content)
 6. Design
 7. Functionality
 8. Accessibility
 9. Browser support
 10. Hosting
-11. Ongoing upport and maintenance
+11. Ongoing support and maintenance
 12. Assumptions
 13. Milestones
 14. Deadlines
@@ -63,6 +63,50 @@ This section is divided as follows:
 ## 3. Goals
   ### Primary Goal
   > To serve as the digital medium of volunteerism by providing vital services (blood donation) immediately upon request and to display the activities along with information.
+  ### Secondary Goals
+  - To act as a digital document that is accessible everytime.
+  - To display the work history of volunteers for professional references.
+  - To spread awareness through event announcements.
+  - To gather the social issues faced by public through forums and polls.
+  - To enable interaction among volunteers through membership feature.
+---
+## 4. Phases
+  ### Development Phases
+  We follow [spiral model][link-to-spiral-model] of development. The four phases of development are as follows:
+
+   - Planning
+   - Risk Analysis
+   - Engineering
+   - Evaluation
+  
+  The iteration period is over a week. Under some instances, it can extend upto 2 weeks.
+
+  ### Project Phases
+  - [x] Phase 1 : Deployment of static web site.
+  - [ ] Phase 2 : Addition of client-side JS.
+  - [ ] Phase 3 : Database integration.
+  - [ ] Phase 4 : Membership feature.
+  - [ ] Phase 5 : Standardization.
+  - [ ] Phase 6 : Migration to custom domain.
+  - [ ] Phase 7 : Other new features.
+  - [x] Recurring Phase : Maintenance.
+
+  Refer to the [current milestone][link-to-current-milestone] for the development progress.  
+
+---
+## 5. Content
+  ### Main Contents:
+   - Home
+   - About
+   - Contact
+
+  ### Sitemap (Main Directory):
+  ![Sitemap-for-yrcsjce][link-to-main-sitemap]
+
+  ### Sitemap (Project Directory):
+  ![Sitemap-for-project][link-to-project-sitemap]
+---
+
 
 
 
@@ -167,3 +211,6 @@ This section is divided as follows:
 [link-to-international-rc]: https://media.ifrc.org/ifrc/what-we-do/red-cross-and-red-crescent-youth/
 [link-to-rcm]: https://www.icrc.org/en/who-we-are/movement
 [link-to-yrcsjce-website]: https://yrcsjce.netlify.com
+[link-to-spiral-model]: https://en.wikipedia.org/wiki/Spiral_model
+[link-to-main-sitemap]: dist/images/main-sitemap.png
+[link-to-project-sitemap]: dist/images/project-sitemap.png
